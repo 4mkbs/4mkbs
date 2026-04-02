@@ -25,18 +25,24 @@ const khairul = {
   role: "Full Stack Developer",
   location: "Dhaka, Bangladesh 🇧🇩",
   education: "B.Sc in Computer Science & Engineering",
-  university: "Dhaka International University",
+  university: "Dhaka International University (2022 - 2025)",
 
-  currentlyLearning: ["Advanced React Patterns", "System Design"],
-  currentlyWorkingOn: "Building scalable web applications",
+  currentlyLearning: [
+    "Advanced React Patterns",
+    "System Design",
+    "Web Security",
+  ],
+  currentlyWorkingOn: "Building secure and scalable web applications",
 
   askMeAbout: [
     "Web Development",
     "JavaScript",
+    "TypeScript",
     "React",
     "Node.js",
     "Database Design",
     "API Development",
+    "Authentication & Authorization",
   ],
 };
 ```
@@ -50,6 +56,8 @@ const khairul = {
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux Toolkit](https://img.shields.io/badge/redux_toolkit-593D88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React Native](https://img.shields.io/badge/react_native-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -61,6 +69,7 @@ const khairul = {
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-07405E.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ### Programming Languages
 
@@ -73,8 +82,23 @@ const khairul = {
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Caddy](https://img.shields.io/badge/caddy-1F88C0?style=for-the-badge&logo=caddy&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=white)
+
+### Backend Practices
+
+- RESTful API Design
+- JWT Authentication
+- Access/Refresh Token Rotation
+- Role-Based Access Control (RBAC)
+- Rate Limiting
+- Audit Logging
+- Server-side Pagination
+- Clean Code & Debugging
 
 ---
 
@@ -82,11 +106,11 @@ const khairul = {
 
 <div align="center">
 
-[![Sakib's GitHub stats](https://github-readme-stats.vercel.app/api?username=4mkbs&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/4mkbs)
+[![Sakib's GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=4mkbs&theme=tokyonight)](https://github.com/4mkbs)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=4mkbs&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=4mkbs&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/4mkbs)
+[![Top Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=4mkbs&theme=tokyonight)](https://github.com/4mkbs)
 
 </div>
 
@@ -94,40 +118,47 @@ const khairul = {
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
-[![mkdevinfo Repo](https://github-readme-stats.vercel.app/api/pin/?username=4mkbs&repo=mkdevinfo&theme=tokyonight&hide_border=true)](https://github.com/4mkbs/mkdevinfo)
-[![Notes App](https://github-readme-stats.vercel.app/api/pin/?username=4mkbs&repo=notes&theme=tokyonight&hide_border=true)](https://github.com/4mkbs/notes)
-[![LifeOfCode Repo](https://github-readme-stats.vercel.app/api/pin/?username=4mkbs&repo=lifeofcode&theme=tokyonight&hide_border=true)](https://github.com/4mkbs/lifeofcode)
-
-</div>
-
 ### 🎯 Project Highlights
 
-**🌐 Personal Portfolio** `MERN Stack`
+**🔐 Role-Based Access Control (RBAC) System** `TypeScript, React, Redux Toolkit, Node.js, Express.js, MongoDB`
 
-- Responsive portfolio showcasing projects and skills
-- Contact form integration with email notifications
-- **Live Demo:** [4mkbs.vercel.app](https://4mkbs.vercel.app/)
+- Engineered a secure identity architecture using JWT authentication with automated access/refresh token rotation.
+- Implemented invite-only registration and granular role middleware for Admin, Manager, and Staff permissions.
+- Built scalable APIs with audit logging, rate limiting, and server-side pagination for high-performance data handling.
 
-**📝 Notes Application** `MERN Stack`
+**🎵 Sound Analyzer & Recorder** `React Native, Expo, Android, Web`
 
-- Secure user authentication and authorization
-- Full CRUD operations for note management
-- Advanced search and filtering capabilities
+- Developed a dual-module audio tool for Android and Web with live decibel metering (LAF & LAeq).
+- Implemented real-time frequency spectrum analysis from 25Hz to 16kHz.
+- Optimized rendering for smooth 60fps Time History graph performance on mobile devices.
 
-**📊 Dashboard Portal** `MERN Stack`
+**📝 Multi-User Blogging Platform** `HTML, Tailwind CSS, React.js, Node.js, Express.js, MongoDB`
 
-- Multi-section admin dashboard
-- Real-time data synchronization with webhooks
-- Transaction, billing, and subscription management
+- Architected a full-featured CMS supporting user registration, authentication, and blog management.
+- Secured backend routes using JWT and bcrypt.
+- Built a responsive UI with advanced filtering by categories, tags, and search.
+
+**📒 Notes App** `HTML, Tailwind CSS, React.js, Node.js, Express.js, MongoDB`
+
+- Engineered a secure, state-managed note system with real-time UI updates.
+- Implemented personalized data management with robust authentication and authorization.
+- Optimized MongoDB indexing for faster search and retrieval.
 
 ---
 
 ## 🎓 Education & Certifications
 
 🎓 **Bachelor of Science in Computer Science & Engineering**  
-📍 Dhaka International University | _2022 - Present_
+📍 Dhaka International University | _2022 - 2025_  
+📊 CGPA: **3.66 / 4.00**
+
+### 📜 Certifications
+
+- **Complete Intro to React, v9** — Frontend Masters (_Dec 2025_)
+- **Web Security, v2** — Frontend Masters (_Dec 2025_)
+- **JavaScript: The Hard Parts, v2** — Frontend Masters (_Oct 2025_)
+- **Complete Intro to Web Development, v3** — Frontend Masters (_Sep 2025_)
+- **JavaScript: From First Steps to Professional** — Frontend Masters (_Sep 2025_)
 
 ---
 
@@ -136,8 +167,7 @@ const khairul = {
 🇧🇩 **Bangla** - Native  
 🇺🇸 **English** - Fluent  
 🇮🇳 **Hindi** - Conversational  
-🇵🇰 **Urdu** - Conversational  
-🇸🇦 **Arabic** - Basic
+🇵🇰 **Urdu** - Conversational
 
 ---
 
